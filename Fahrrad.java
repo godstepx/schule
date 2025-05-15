@@ -8,7 +8,6 @@ public class Fahrrad extends Fahrzeug {
     
     @Override
     public void fahren(GPS zielposition) {
-        // Implementation der Fahrmethode für Fahrrad
         this.position = zielposition;
     }
 }
